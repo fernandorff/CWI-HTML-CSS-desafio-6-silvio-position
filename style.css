@@ -1,0 +1,39 @@
+* {
+  border: solid px red;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.silvio {
+  position: relative;
+}
+
+.fundo-texto-silvio {
+  background-color: #00000050;
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px 18px 20px;
+  overflow: hidden;
+}
+
+.texto {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
